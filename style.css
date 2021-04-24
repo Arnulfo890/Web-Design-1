@@ -250,9 +250,6 @@ nav a:hover::after {
   .details {
     font-size: 0.7rem;
   }
-  .main-text h1 {
-    font-size: 2rem;
-  }
 }
 @media all and (max-width: 850px) {
   .menu {
@@ -305,8 +302,9 @@ nav a:hover::after {
   }
   .main-card {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     align-items: center;
+    grid-gap: 10px;
   }
   .card {
     max-width: 200px;
@@ -319,5 +317,16 @@ nav a:hover::after {
   .btn {
     padding: 5px 10px;
     font-size: 0.8rem;
+  }
+
+  .card-1 {
+    border: none;
+  }
+  .card-2 {
+    border: 2px;
+  }
+  .card-3 {
+    border: none;
+    margin-bottom: 50px;
   }
 }
